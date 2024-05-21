@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(gray,rgb(202, 201, 201));
+   
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+li{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+li:hover{
+background-color: bisque;
+cursor: pointer;
+color: gray;
+}
+.sec1{
+    width: 100%;
+    height: 500px;
+    background-color: lightsteelblue;
+    position: relative;
+    margin: auto;
+}
+.solo{
+    height: 450px;
+    width: 1100px;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    background-size: 90%,90%;
+    
+
+}
+.a{
+    height: 40px;
+    width: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    top:45%;
+    border-radius: 20%;
+    right: 5px;
+
+}
+.b{
+    height: 40px;
+    width: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    top:45%;
+    border-radius: 20%;
+    left: 5px;
+
+}
+.a:hover{
+    background-color: bisque;
+cursor: pointer;
+color: gray;
+}
+.b:hover{
+    background-color: bisque;
+cursor: pointer;
+color: gray;
+}
+
+
+.apple{
+    background-color: lightsteelblue;
+   padding: 30px 50px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+.about{
+    background-color: rgb(180, 216, 242);
+    display: flex;
+    padding: 50px;
+}
+p{
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+}
+.gojo{
+    width: 50%;
+    border-radius: 50%;
+     overflow: hidden;
+}
+
+.gojo:hover {
+    transform: scale(0.5);
+    transition: 3s;
+}
+
+.gallery{
+    background-image: linear-gradient(blue,white);
+    padding: 30px;
+}
+.gallery h1{
+    font-size: 60px;
+    color: white;
+}
+.gallery_container{
+    padding: 200px;
+    background-color: rgba(255,255,255,50%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.gallery-item{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow:10px 10px gray;
+}
+.gallery-item img{
+    height: 100%;
+    width: 100%;
+
+}
+.gallery-item:hover{
+    box-shadow: 0 0 10px 5px gray;
+    transform: scale(1.2);
+}
+
+.blog-content{
+  
+    width: 100%;
+    background-color: turquoise;
+    position: relative;
+  
+}
+.BSD{
+    display: flex;
+}
+ .blog-text{
+  padding: 20px;
+    width: 60%;
+    background-color: paleturquoise;
+
+
+
+ }
+ .blog-text p{
+font-size: 20px;
+width: 100%;
+ }
+ .Goji{
+    position: relative;
+    top: 110px;
+    width: 100%;
+ }
+ .blog-image{
+    background-color: paleturquoise;
+   padding: 20px;
+    width: 40%;
+    
+ }
+ .blog-author{
+    color: white;
+    position: relative;
+    left: 15%;
+ }
+ .contact{
+    width: 100%;
+    background-image: linear-gradient(lightsteelblue,turquoise,paleturquoise, white);
+    padding: 20px;
+ }
+ .count{
+    display: flex;
+   
+ }
+ .con{
+    background-image: linear-gradient(black,gray);
+
+ }
+ .address{
+    width: 50%;
+    background-color: paleturquoise;
+    padding: 30px;
+    position: relative;
+
+
+ }
+ .contactme{
+    width: 50%;
+    background-color: paleturquoise;
+    padding: 30px;
+ }
+ .add{
+    font-size: 40px;
+    color: lightsalmon;
+    text-decoration: solid underline white;
+ }
+ .lg{
+    font-size: 30px;
+ }
+ .but{
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    width: 100%;
+ }
+ .map{
+   
+  
+   
+    background-color: paleturquoise;
+    
+
+ }
+ iframe{
+    width: 50%;
+    margin: auto;
+    display: block;
+ }
